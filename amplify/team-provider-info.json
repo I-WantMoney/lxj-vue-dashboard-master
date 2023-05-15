@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lxjdashboard-dev-154814-authRole",
+      "UnauthRoleArn": "arn:aws:iam::047403811176:role/amplify-lxjdashboard-dev-154814-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::047403811176:role/amplify-lxjdashboard-dev-154814-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-lxjdashboard-dev-154814-deployment",
+      "UnauthRoleName": "amplify-lxjdashboard-dev-154814-unauthRole",
+      "StackName": "amplify-lxjdashboard-dev-154814",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:047403811176:stack/amplify-lxjdashboard-dev-154814/77a13290-f2ec-11ed-ad8b-0a3fccd85a4f",
+      "AmplifyAppId": "d1d13giqjdbkud"
+    },
+    "categories": {
+      "auth": {
+        "lxjdashboard3f127ab9": {}
+      },
+      "api": {
+        "lxjdashboard": {}
+      }
+    }
+  }
+}
