@@ -25,5 +25,22 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "predictions": {
+    "interpretText5caaebe4": {
+      "interpretType": "interpretText",
+      "providerPlugin": "awscloudformation",
+      "service": "Comprehend"
+    },
+    "speechGenerator2271b540": {
+      "convertType": "speechGenerator",
+      "providerPlugin": "awscloudformation",
+      "service": "Polly"
+    },
+    "translateTextc8130ebc": {
+      "convertType": "translateText",
+      "providerPlugin": "awscloudformation",
+      "service": "Translate"
+    }
   }
 }

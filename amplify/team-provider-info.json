@@ -14,6 +14,11 @@
     "categories": {
       "auth": {
         "lxjdashboardde3c5a96": {}
+      },
+      "predictions": {
+        "translateTextc8130ebc": {},
+        "interpretText5caaebe4": {},
+        "speechGenerator2271b540": {}
       }
     }
   }
