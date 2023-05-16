@@ -2,7 +2,24 @@
   <div>
     <notifications></notifications>
     <router-view :key="$route.fullPath"></router-view>
+    <authenticator>
+      <main>
+        <div>
+          <nav class="nav">
+            <ul class="list">
+              <li><router-link class="routerLink" to="/chat">Chat</router-link></li>
+              <li><router-link class="routerLink" to="/ai">AI</router-link></li>
+              <li><router-link class="routerLink" to="/geo">Geo</router-link></li>
+            </ul>
+          </nav>
+        </div>
+        <section>
+          <router-view/>
+        </section>
+      </main>
+    </authenticator>
   </div>
+  
 </template>
 
 <script>

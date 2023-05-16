@@ -1,12 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
-  "api": {
-    "lxjdashboard": {
-      "GraphQLAPIEndpointOutput": "string",
-      "GraphQLAPIIdOutput": "string"
-    }
-  },
   "auth": {
-    "lxjdashboard3f127ab9": {
+    "lxjdashboardde3c5a96": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",

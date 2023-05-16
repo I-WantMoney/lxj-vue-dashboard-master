@@ -1,32 +1,7 @@
 {
-  "api": {
-    "lxjdashboard": {
-      "dependsOn": [
-        {
-          "attributes": [
-            "UserPoolId"
-          ],
-          "category": "auth",
-          "resourceName": "lxjdashboard3f127ab9"
-        }
-      ],
-      "output": {
-        "authConfig": {
-          "additionalAuthenticationProviders": [],
-          "defaultAuthentication": {
-            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
-            "userPoolConfig": {
-              "userPoolId": "authlxjdashboard3f127ab9"
-            }
-          }
-        }
-      },
-      "providerPlugin": "awscloudformation",
-      "service": "AppSync"
-    }
-  },
+  "api": {},
   "auth": {
-    "lxjdashboard3f127ab9": {
+    "lxjdashboardde3c5a96": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
