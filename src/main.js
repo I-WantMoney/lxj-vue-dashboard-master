@@ -36,16 +36,24 @@ import { AmazonAIPredictionsProvider } from '@aws-amplify/predictions';
 Amplify.addPluggable(new AmazonAIPredictionsProvider());
 // // ↑↑↑↑↑↑
 
+// Amplify Geo
+import 'maplibre-gl/dist/maplibre-gl.css'
+import '@maplibre/maplibre-gl-geocoder/dist/maplibre-gl-geocoder.css'
+
 // const app = createApp(App);
 // app.config.productionTip = false;
 // app.use(router);
 // app.use(AmplifyVue);
 // app.mount('#app');
 
-
+// Vue.config.productionTip = false;
+// Vue.use(router);
 Vue.use(BlackDashboard);
 Vue.use(VueRouter);
 Vue.use(RouterPrefetch);
+// Vue.use(AmplifyVue);
+// Vue.mount('#app');
+
 
 /* eslint-disable no-new */
 new Vue({

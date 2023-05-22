@@ -4,7 +4,7 @@
       <textarea
         class="ioarea"
         v-model="inputText"
-        placeholder="Type to interpret.（Press Shift + Enter）"
+        placeholder="Type to interpret.(Press Shift + Enter)"
         @keydown.enter.shift="interpretation"
       ></textarea>
     </div>

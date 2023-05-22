@@ -7,8 +7,8 @@ export const createMessage = /* GraphQL */ `
     $condition: ModelMessageConditionInput
   ) {
     createMessage(input: $input, condition: $condition) {
-      content
       id
+      content
       createdAt
       updatedAt
       owner

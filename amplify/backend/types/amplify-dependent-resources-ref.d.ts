@@ -1,6 +1,12 @@
 export type AmplifyDependentResourcesAttributes = {
+  "api": {
+    "lxjdashboard": {
+      "GraphQLAPIEndpointOutput": "string",
+      "GraphQLAPIIdOutput": "string"
+    }
+  },
   "auth": {
-    "lxjdashboardde3c5a96": {
+    "lxjdashboard1cc19cac": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -10,17 +16,25 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolName": "string"
     }
   },
+  "geo": {
+    "map9644c6bf": {
+      "Arn": "string",
+      "Name": "string",
+      "Region": "string",
+      "Style": "string"
+    }
+  },
   "predictions": {
-    "interpretText5caaebe4": {
+    "interpretText722afe4b": {
       "region": "string",
       "type": "string"
     },
-    "speechGenerator2271b540": {
+    "speechGenerator07d25d11": {
       "language": "string",
       "region": "string",
       "voice": "string"
     },
-    "translateTextc8130ebc": {
+    "translateTextb74d0625": {
       "region": "string",
       "sourceLang": "string",
       "targetLang": "string"

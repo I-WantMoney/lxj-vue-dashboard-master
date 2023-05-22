@@ -22,11 +22,11 @@
 </template>
 
 <script>
-import TranslateText from '@/components/TranslateText.vue';
+import TranslateText from '@/pages/TranslateText.vue';
 
-import InterpretText from '@/components/InterpretText.vue';
+import InterpretText from '@/pages/InterpretText.vue';
 // 追加 2
-import TextSpeech from '@/components/TextSpeech.vue';
+import TextSpeech from '@/pages/TextSpeech.vue';
 
 export default {
   components: {

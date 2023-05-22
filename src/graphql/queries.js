@@ -4,8 +4,8 @@
 export const getMessage = /* GraphQL */ `
   query GetMessage($id: ID!) {
     getMessage(id: $id) {
-      content
       id
+      content
       createdAt
       updatedAt
       owner
@@ -20,8 +20,8 @@ export const listMessages = /* GraphQL */ `
   ) {
     listMessages(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
-        content
         id
+        content
         createdAt
         updatedAt
         owner

@@ -1,7 +1,32 @@
 {
-  "api": {},
+  "api": {
+    "lxjdashboard": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "lxjdashboard1cc19cac"
+        }
+      ],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authlxjdashboard1cc19cac"
+            }
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
   "auth": {
-    "lxjdashboardde3c5a96": {
+    "lxjdashboard1cc19cac": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -26,18 +51,36 @@
       "service": "Cognito"
     }
   },
+  "geo": {
+    "map9644c6bf": {
+      "accessType": "AuthorizedUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "lxjdashboard1cc19cac"
+        }
+      ],
+      "isDefault": true,
+      "mapStyle": "VectorHereExplore",
+      "providerPlugin": "awscloudformation",
+      "service": "Map"
+    }
+  },
   "predictions": {
-    "interpretText5caaebe4": {
+    "interpretText722afe4b": {
       "interpretType": "interpretText",
       "providerPlugin": "awscloudformation",
       "service": "Comprehend"
     },
-    "speechGenerator2271b540": {
+    "speechGenerator07d25d11": {
       "convertType": "speechGenerator",
       "providerPlugin": "awscloudformation",
       "service": "Polly"
     },
-    "translateTextc8130ebc": {
+    "translateTextb74d0625": {
       "convertType": "translateText",
       "providerPlugin": "awscloudformation",
       "service": "Translate"

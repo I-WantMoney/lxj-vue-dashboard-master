@@ -13,12 +13,18 @@
     },
     "categories": {
       "auth": {
-        "lxjdashboardde3c5a96": {}
+        "lxjdashboard1cc19cac": {}
+      },
+      "api": {
+        "lxjdashboard": {}
       },
       "predictions": {
-        "translateTextc8130ebc": {},
-        "interpretText5caaebe4": {},
-        "speechGenerator2271b540": {}
+        "translateTextb74d0625": {},
+        "interpretText722afe4b": {},
+        "speechGenerator07d25d11": {}
+      },
+      "geo": {
+        "map9644c6bf": {}
       }
     }
   }

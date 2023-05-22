@@ -4,8 +4,8 @@
 export const onCreateMessage = /* GraphQL */ `
   subscription OnCreateMessage($filter: ModelSubscriptionMessageFilterInput) {
     onCreateMessage(filter: $filter) {
-      content
       id
+      content
       createdAt
       updatedAt
       owner
